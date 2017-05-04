@@ -1,4 +1,4 @@
 FROM alpine
+COPY run.sh .
 
-ENTRYPOINT ["echo"]
-CMD ["hello world"]
+CMD ["/run.sh"]
